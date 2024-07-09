@@ -1,0 +1,17 @@
+### POST request to create a new trip
+POST http://localhost:3090/trip
+Content-Type: application/json
+
+{
+  "destination": "Roma",
+  "starts_at": "2024-08-10",
+  "ends_at": "2024-08-15",
+  "owner_name": "Elias Exemplo",
+  "owner_email": "exemplo.elias@gmail.com",
+  "emails_to_invite":[
+    "Pedro@gmail.com",
+    "Lucas@gmail.com",
+    "Maria@gmail.com",
+    "Cristiano@gmail.com"
+  ]
+}
